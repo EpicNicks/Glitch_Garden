@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/00 GlitchGardenSplash.unity
+    guid: 6f0d8d55522f9e34aa8845a86b64a691
+  - enabled: 1
+    path: Assets/_Scenes/01A Start.unity
+    guid: 4b9592e4dd5250e4fba63991febea1fc
+  - enabled: 1
+    path: Assets/_Scenes/01B Options.unity
+    guid: 8a3b849f867afbd4388e900b4d163cb2
+  - enabled: 1
+    path: Assets/_Scenes/01C Tutorial.unity
+    guid: 4e7c3c5615e33074d90f2ada92b2bb35
+  - enabled: 1
+    path: Assets/_Scenes/01D Level Select.unity
+    guid: 111d507bc4c9f2e43bd755d418fcb320
+  - enabled: 1
+    path: Assets/_Scenes/02 Level 1.unity
+    guid: ddf04d1d8b975f94f9d70dbe006ba64f
+  - enabled: 1
+    path: Assets/_Scenes/02 Level 2.unity
+    guid: b01026d00c240ae46b94202813c2e408
+  - enabled: 1
+    path: Assets/_Scenes/02 Level 3.unity
+    guid: d8641bf3b7f9b694bb6bc41beaa9b930
+  - enabled: 1
+    path: Assets/_Scenes/03A Win.unity
+    guid: 1ff9df3753032c246a8d7893d1a42e8d
+  - enabled: 1
+    path: Assets/_Scenes/03B Lose.unity
+    guid: 9f582cfa06f3a174084b89d74d216fe0

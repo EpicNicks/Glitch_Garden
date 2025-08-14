@@ -10,9 +10,15 @@ public class OptionsController : MonoBehaviour {
 
 	void Start ()
     {
-        musicManager = FindObjectOfType<MusicManager>();
-        volumeSlider.value = PlayerPrefsManager.GetMasterVolume();
-        difficultySlider.value = PlayerPrefsManager.GetDifficulty();
+        musicManager = FindAnyObjectByType<MusicManager>();
+        if (volumeSlider != null )
+        {
+            volumeSlider.value = PlayerPrefsManager.GetMasterVolume();
+        }
+        if (difficultySlider != null)
+        {
+            difficultySlider.value = PlayerPrefsManager.GetDifficulty();
+        }
     }
 	
 	void Update ()
